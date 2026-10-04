@@ -1,5 +1,7 @@
+/// <reference lib="dom" />
+
 import { verifyToken } from '@clerk/backend';
-import { tutorRequestSchema, tutorResponseSchema } from '@workspace/api-zod';
+import { tutorRequestSchema, tutorResponseSchema } from '../../lib/api-zod/src/ai-tutor';
 
 declare const process: { env: Record<string, string | undefined> };
 
